@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CodeForge - Landing Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">CodeForge</div>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Build Real Projects. Become a Developer.</h1>
+    <p>A beginner-friendly platform to master web development through real-world projects.</p>
+    <button onclick="start()">Start Learning Now</button>
+</section>
+
+<div class="card">Live Coding Practice</div>
+<div class="card">AI Powered Learning</div>
+<div class="card">Project Based Growth</div>
+
+<!-- Wave -->
+<div class="wave">
+<svg viewBox="0 0 1440 320">
+<path fill="#111827" d="M0,224L60,213.3C120,203,240,181,360,165.3C480,149,600,139,720,154.7C840,171,960,213,1080,234.7C1200,256,1320,256,1380,256L1440,256V320H0Z"></path>
+</svg>
+</div>
+
+<section id="about">
+<h2>About Us</h2>
+<p>We teach HTML, CSS, JS through real projects.</p>
+</section>
+
+<div class="wave">
+<svg viewBox="0 0 1440 320">
+<path fill="#0f172a" d="M0,64L80,90.7C160,117,320,171,480,176C640,181,800,139,960,133.3C1120,128,1280,160,1360,176L1440,192V320H0Z"></path>
+</svg>
+</div>
+
+<section id="features">
+<h2>Features</h2>
+<div class="cards">
+    <div class="card">Real Projects</div>
+    <div class="card">Beginner Friendly</div>
+    <div class="card">Free Learning</div>
+</div>
+</section>
+
+<section id="faq">
+<h2>FAQ</h2>
+
+<div class="faq">
+    <h4 onclick="toggle(this)">Is this suitable for beginners?</h4>
+    <p>Absolutly</p>
+
+    <h5 onclick="toggle(this)">Can I build projects here?</h5>
+    <p>Yes, you build real life projects</p>
+
+    <h6 onclick="toggle(this)">Is coding experience required?</h6>
+    <p>NO , It teachs you everything from basic level</p>
+
+
+</div>
+</section>
+
+<footer>
+Designed and developed by Aditya Shukla
+© 2026 CodeForge
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
